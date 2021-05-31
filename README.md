@@ -3,7 +3,7 @@ This repository contains the offical implementation for the paper accepted by IC
 
 The codes are implemented by Keras 2.
 
-# update 
+# Update 
 
 ### 2021 May 24
 
