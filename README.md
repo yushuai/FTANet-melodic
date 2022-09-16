@@ -5,7 +5,7 @@ The codes are implemented by Keras 2.
 
 # Update 
 
-### 2021 May 24
+### May 24 2021
 
 1. We add a pytorch implementation version in the network directory. Special thanks to Dr. Ke Chen.
 
