@@ -130,9 +130,9 @@ class FTAnet(nn.Module):
         self.bm_layer = nn.Sequential(
             nn.Conv2d(3, 16, (4,1), stride=(4,1)),
             nn.SELU(),
-            nn.Conv2d(16, 16, (3,1), stride=(3,1)),
+            nn.Conv2d(16, 16, (4,1), stride=(4,1)),
             nn.SELU(),
-            nn.Conv2d(16, 16, (6,1), stride=(6,1)),
+            nn.Conv2d(16, 16, (4,1), stride=(4,1)),
             nn.SELU(),
             nn.Conv2d(16, 1, (5,1), stride=(5,1)),
             nn.SELU()
